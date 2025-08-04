@@ -1,0 +1,1 @@
+# Force Dart as the primary language\n*.dart linguist-language=Dart\n\n# Exclude native code and generated files from language stats\nandroid/** linguist-vendored\nios/** linguist-vendored\nbuild/** linguist-vendored\n*.lock linguist-generated=true\n*.yaml linguist-generated=true\n*.json linguist-generated=true
